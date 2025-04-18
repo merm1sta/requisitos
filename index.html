@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>De quantas vidas não vividas é feita uma vida?</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="envelope-wrapper">
+            <div class="envelope">
+                <div class="letter">
+                    <div class="text">
+                        <strong>Querida Julia,</strong>
+                        <p>
+                            Desde que assistimos Past Lives, tenho pensado muito sobre 
+                            nós e o termo "In-Yun". Como eu posso ter apenas te abraçado,
+                            nunca ter te namorado e sentir algo profundo? 
+                            Eu não possuo a resposta, mas gostaria de saber se 
+                            você aceita assistir um filme comigo. 
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="heart"></div>
+        </div>
+    </div>
+    <script>
+        const envelope = document.querySelector('.envelope-wrapper');
+        envelope.addEventListener('click', () => {
+            envelope.classList.toggle('flap');
+        });
+    </script>
+</body>
+</html>
